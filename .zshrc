@@ -28,4 +28,4 @@ alias g='f(){ local msg="$*"; git add .; git commit -m ${msg:-untitled commit}; 
 
 alias r='f(){ npx create-rubric-app@latest -n ${1:-my-app} -y }; f'
 
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+alias k='f(){ kill -9 $(lsof -ti:${1:-3000}) }; f'
