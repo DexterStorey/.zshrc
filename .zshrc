@@ -35,9 +35,9 @@ alias e='f(){ infisical --env=$1 export > .env.local; }; f'
 
 alias dl="d & l"
 
-alias t3="npx create-t3-app@latest"
+alias t3="bunx create-t3-app@latest"
 
-alias r='f(){ npx create-rubric-app@latest -n ${1:-my-app} -y }; f'
+alias r='f(){ bunx create-rubric-app@latest -n ${1:-my-app} -y }; f'
 
 # replace key with your open ai api key
-alias ai="npx create-rubric-app@latest --key sk-XXXXXXXXX --bun --ai -y"
+alias ai="bunx create-rubric-app@latest --key sk-XXXXXXXXX --bun --ai -y"
