@@ -12,9 +12,9 @@ alias bs="b && s"
 
 alias ibs="i && b && s"
 
-alias p="npx prisma studio"
+alias p="bunx prisma studio"
 
-alias bleed="npx npm-check-updates -u && i"
+alias bleed="bunx npm-check-updates -u && i"
 
 alias clean="rm -rf .next && rm -rf node_modules && rm -f bun.lockb"
 
