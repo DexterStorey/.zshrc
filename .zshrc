@@ -33,8 +33,6 @@ alias l='f(){ local port="$*"; ngrok http --domain=dexter.rubric.sh ${port:-3000
 
 alias e='f(){ infisical --env=$1 export > .env.local; }; f'
 
-alias dl="d & l"
-
 alias t3="bunx create-t3-app@latest"
 
 alias r='f(){ bunx create-rubric-app@latest -n ${1:-my-app} -y }; f'
